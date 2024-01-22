@@ -1,0 +1,39 @@
+.cardsRootContainer {
+  width: 538px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px 12px;
+  box-shadow: 0px 0px 8px 1px #e1e1e1;
+}
+
+.titlesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.founderName {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0 !important;
+}
+
+.animalName {
+  font-size: 14px;
+  line-height: normal;
+  margin: 0 !important;
+}
+
+.gradient {
+  width: 100%;
+  height: 25px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--first) 0%, var(--second) 100%);
+  margin: 1rem 0;
+}
+
+.founderContainer .founder {
+  font-size: 18px;
+  font-weight: bold;
+}
