@@ -38,7 +38,7 @@ const useFetchHouses = () => {
     [response.data]
   );
 
-  return { data };
+  return { data, loading: response?.isLoading };
 };
 
 export default useFetchHouses;
